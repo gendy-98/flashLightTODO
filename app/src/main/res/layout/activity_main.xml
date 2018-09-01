@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!-- TODO[1]: Add button for turning on-->
+    <!-- TODO[2]: Set layout_width and layout_height attributes-->
+    <!-- TODO[3]: Set id attribute to deal with button from Java-->
+    <!-- TODO[4]: Set appropriate text attribute-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/onButton"
+        android:text="Turn on"
+        android:onClick="on"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/offButton"
+        android:text="Turn off"
+        android:onClick="off"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blinkButton"
+        android:text="Blink"
+        android:onClick="blink"/>
+
+    <!-- TODO[5]: Set layout_constraint... attributes per taste-->
+
+    <!-- TODO[6]:  Add button for turning off-->
+    <!-- TODO[7]:  Set layout_width and layout_height attributes-->
+    <!-- TODO[8]:  Set id attribute to deal with button from Java-->
+    <!-- TODO[9]:  Set appropriate text attribute-->
+    <!-- TODO[10]: Set layout_constraint... attributes per taste-->
+
+    <!-- TODO[11]: Add button for blinking-->
+    <!-- TODO[12]: Set layout_width and layout_height attributes-->
+    <!-- TODO[13]: Set id attribute to deal with button from Java-->
+    <!-- TODO[14]: Set appropriate text attribute-->
+    <!-- TODO[15]: Set layout_constraint... attributes per taste-->
+
+</LinearLayout>
